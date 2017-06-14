@@ -1,0 +1,55 @@
+.call > img {
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin: 26px 9px;
+}
+
+.call > .hotline {
+    margin: 21px 0px;
+    float: left;
+}
+
+.call > .hotline > p {
+    margin: 0px;
+}
+
+.call > .hotline > p:first-child {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.call > .hotline > p:last-child {
+    font-weight: bold;
+    color: #f1c600;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    position: relative;
+}
+
+.navbar-default .navbar-nav > .active > a:before {
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #dcb616;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        min-height: 50px;
+    }
+
+    .navbar-toggle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-brand {
+        padding: 5px 15px;
+        height: 50px;
+    }
+}

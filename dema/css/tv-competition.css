@@ -1,0 +1,309 @@
+.container{
+  float: left;
+}
+.header-2{
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  background: #24252a;
+  color: #808288;
+}
+.header-2 li{
+  float: left;
+  padding: 10px 0px;
+  background: #2f3037;
+  cursor: pointer;
+}
+.header-2 li span{
+  display: inline-block;
+  width: 100%;
+  border-color: #494a51;
+}
+.header-2 li:nth-of-type(1){
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.header-2 li:nth-of-type(4){
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.header-2 li:nth-of-type(1),.header-2 li:nth-of-type(2){
+  width: 20%;
+}
+.header-2 li:nth-of-type(3),.header-2 li:nth-of-type(4){
+  width: 30%;
+}
+.header-2 .on{
+  background: #ed4040;
+  color: #fff;
+}
+
+
+.header-notice{
+  float: left;
+  padding: 10px 20px;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #ddd; 
+}
+.header-notice span{
+  padding: 0px 5px;
+}
+.header-notice span i{
+  display: inline-block;
+  width: 18px;
+  height: 14px;
+  background: url("../images/btn5.png") 0px 0px no-repeat;
+  background-size: 29px;
+}
+
+
+
+ul.list{
+  font-size: 16px;
+}
+ul.list li{
+  padding: 20px;
+}
+ul.list li:nth-of-type(2n+1){
+  background-color: #f7f5f3;
+}
+ul.list li div{
+  position: relative;
+  padding-left: 20%;
+}
+ul.list li div i{
+  display: inline-block;
+  position: absolute;
+  top: -2px;
+  left: 0px;
+}
+.wu{
+  width: 30px;
+  height: 24px;
+  background: url("../images/btn5.png") 0px -14px no-repeat;
+  background-size: 30px;
+}
+.si{
+  width: 30px;
+  height: 24px;
+  background: url("../images/btn5.png") 0px -38px no-repeat;
+  background-size: 30px;
+}
+.big{
+  width: 30px;
+  height: 30px;
+  background: url("../images/btn5.png") 0px -64px no-repeat;
+  background-size: 30px;
+}
+.twin{
+  width: 30px;
+  height: 26px;
+  background: url("../images/btn5.png") 0px -96px no-repeat;
+  background-size: 30px;
+}
+.MVP{
+  width: 30px;
+  height: 32px;
+  background: url("../images/btn5.png") 0px -122px no-repeat;
+  background-size: 30px;
+}
+.money{
+  width: 30px;
+  height: 28px;
+  background: url("../images/btn5.png") 0px -154px no-repeat;
+  background-size: 30px;
+}
+.xue{
+  width: 30px;
+  height: 30px;
+  background: url("../images/btn5.png") 0px -64px no-repeat;
+  background-size: 30px;
+}
+.crystal{
+  width: 30px;
+  height: 29px;
+  background: url("../images/btn5.png") 0px -183px no-repeat;
+  background-size: 30px;
+}
+.shi{
+  width: 30px;
+  height: 28px;
+  background: url("../images/btn5.png") 0px -212px no-repeat;
+  background-size: 30px;
+}
+.small{
+  width: 30px;
+  height: 28px;
+  background: url("../images/btn5.png") 0px -239px no-repeat;
+  background-size: 30px;
+}
+
+ul.list li div a{
+  float: right;
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #f10d0d;
+  border-radius: 3px;
+  color: #f10d0d;
+  margin-top: -5px;
+}
+ul.list li div a.stop{
+  border-color: #dddddd;
+  color: #484848;
+}
+
+.two-btn{
+  float: left;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #dddddd;
+}
+.two-btn p{
+  display: inline-block;
+  width: 50%;
+  float: left;
+  border-top: 2px solid #d3d3d3;
+  color: #d3d3d3;
+  font-size: 16px;
+  padding: 20px 0px;
+}
+.two-btn p.on{
+  border-top-color: #ff8400;
+  color: #ff8400;
+}
+
+.against{
+  float: left;
+  width: 100%;
+  font-size: 16px;
+}
+.against li:nth-of-type(2n+1){
+  background: #f7f5f3;
+}
+.against li{
+  width: 100%;
+  line-height: 35px;
+  float: left;
+  text-align: center;
+  padding: 0px 20px;
+}
+.against li div{
+  padding: 15px 0px;
+  float: left;
+  width: 100%;
+}
+.against li div i{
+  display: inline-block;
+  width: 20%;
+  float: left;
+  height: 35px;
+}
+.against li div i img{
+  width: 35px;
+}
+.against li div span{
+  display: inline-block;
+  float: left;
+  width: 40%;
+}
+
+.record{
+  width: 100%;
+}
+.record li{
+  width: 100%;
+  float: left;
+  padding: 15px 0px;
+  background: #fff;
+}
+.record li:nth-of-type(2n-1){
+  background: #f2f6f7;
+}
+.record li span{
+  display: inline-block;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+.record li span:nth-of-type(3){
+  color: #ff7800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

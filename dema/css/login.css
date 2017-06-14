@@ -1,0 +1,88 @@
+.login-title{
+    font-size: 16px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    background: #24252a;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.login-ad img{
+    width: 100%;
+}
+.login-cont{
+    padding: 40px 20px;
+}
+.login-cont input[type="text"]{
+    width: 100%;
+    border: none;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 40px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+.login-cont input[type="text"]:focus{
+    outline: none;
+}
+.login-cont .zhang,.login-cont .mima{
+    position: relative;
+}
+.login-cont .zhang i{
+    display: inline-block;
+    width: 30px;
+    height: 21px;
+    background: url("../images/btn3.png") 0px 0px no-repeat;
+    background-size: 20px;
+    position: absolute;
+    top: 9px;
+    left: 0px;
+}
+.login-cont .mima i{
+    display: inline-block;
+    width: 30px;
+    height: 24px;
+    background: url("../images/btn3.png") 0px -22px no-repeat;
+    background-size: 20px;
+    position: absolute;
+    top: 7px;
+    left: 0px;
+}
+.login-cont-check{
+    font-size: 16px;
+    color: #a4a4a4;
+    height: 21px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+.model-check{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+}
+.go i{
+    display: inline-block;
+    width: 18px;
+    height: 16px;
+    background: url("../images/btn3.png")0px -40px no-repeat;
+    background-size: 17px;
+}
+.login-cont-check input[type="checkbox"]{
+    display: none;
+}
+.login-cont-check a{
+    color: #ff4800;
+}
+
+
+.creat-btn{
+    background-color: #f0f0f0;
+    color: #4b4b4b;
+}
+
